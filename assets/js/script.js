@@ -22,8 +22,8 @@ prenom = "Catherine";
 //inst_2; inst_3;
 
 // -- 4 : Afficher une boîte de dialogue (2 façons)
-//alert("Super, tu es arrivé sur mon site !");
-//window.alert("Super, tu es arrivé sur mon site !");
+alert("Super, tu es arrivé sur mon site !");
+window.alert("Super, tu es arrivé sur mon site !");
 
 // -- 5 : Afficher dans la console (ici, la valeur de ma variable Prenom)
 console.log(prenom);
@@ -32,13 +32,13 @@ console.log(prenom);
 document.write("<h1>Hello</h1>");
 
 // -- 7 : Demander à l'utilisateur une valeur (2 façons)
-//prompt("Question: on est quel jour ?", "jour de la semaine");
-//window.prompt("Question: on est quel jour ?", "ici le jour de la semaine");
+prompt("Question: on est quel jour ?", "jour de la semaine");
+window.prompt("Question: on est quel jour ?", "ici le jour de la semaine");
 
 // -- et pour manipuler cette valeur, je n'oublie pas de la stocker
 let jour;
-//jour = prompt("On est quel jour ?", "ici, le jour de la semaine");
-//console.log(jour);
+jour = prompt("On est quel jour ?", "ici, le jour de la semaine");
+console.log(jour);
 
 // -- 8 : Attention /!\ le JS est sensible à la casse ('case sensitive')
 //mavariable =/= maVariable =/= ma_variable
